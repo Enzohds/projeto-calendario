@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calendario{
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 1rem;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 0.5rem;
+    border: 1px solid #202020;
+}
+
+th{
+    background-color: #202020;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+td{
+    cursor:pointer;
+}
+
+td:hover{
+    background-color: #f2f2f2 ;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
